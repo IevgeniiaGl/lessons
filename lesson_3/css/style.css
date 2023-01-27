@@ -1,0 +1,54 @@
+@import url("reset.css");
+body{
+    color: #000000;
+}
+h1{
+    color: #0000ff;
+}
+.nav a{
+    color: #9f9b28;
+}
+h2{
+    color: #ed64cb;
+}
+li{
+    color: #02a1a1;
+}
+#iceland{
+    color: #edb464;
+}
+.likya-text{
+    color: #647f2a;
+}
+.likya span{
+    color: #9f2828;
+}
+.basecamp span{
+    color: #36289f;
+}
+.montblanc span,
+.dolomits span,
+.iceland span {
+    color: #005a1b;
+}
+.basecamp-text{
+    color: #edb464; 
+}
+.basecamp li{
+    color: #9f6428;
+}
+.comewithus{
+    color: #64c6ed;
+}
+.basecamp .comewithus{
+    color: #fd0537;
+}
+.basecamp a{
+    color: #dbe91a;
+}
+.montblanc a{
+    color: #689f28;
+}
+.footer-text a{
+    color: #2be262;
+}
