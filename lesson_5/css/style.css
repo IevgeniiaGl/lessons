@@ -1,0 +1,61 @@
+@import url("reset.css");
+
+
+body{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.78;
+    color: #6C757D; 
+    font-family: Poppins,sans-serif;
+}
+.content{
+    max-width: 816px;
+    margin: 0 auto;
+}
+.text{
+    margin-bottom:60px;
+}
+.title{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1.6;
+    color: #212529;
+    margin-bottom: 40px;
+}
+.header-title{
+   max-width: 400px;
+}
+.page-title{
+    max-width: 605px;
+ }
+ .text p{
+    padding-bottom: 30px;
+}
+.big-image{
+    margin-bottom: 80px;
+}
+.big-image img{
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.smoll-images{
+    margin-bottom: 80px;
+    text-align: center;
+}
+.smoll-image_01 img{
+    max-width: 100%;
+    display: block;
+    
+ }
+ .smoll-image_02 img{
+    max-width: 100%;
+    display: block;
+ }
+.smoll-image_01{
+    padding-right: 30px;
+ }
+
+.footer-text p{
+    padding-bottom: 40px;
+}
