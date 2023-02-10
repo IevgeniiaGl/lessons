@@ -1,0 +1,114 @@
+
+@import url("reset.css");
+
+[class*="__container"]{
+    max-width: 1270px;
+    margin: 0px auto;
+    padding: 0px 15px;
+}
+
+
+
+body{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.78;
+    color: #6C757D; 
+    font-family: Poppins,sans-serif;
+}
+
+
+.title{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1.6;
+    color: #212529;
+    max-width: 605px;
+}
+.first_title{
+    margin-bottom: 40px;
+}
+
+.content{
+    max-width: 816px;
+    margin: 0 auto 80px;
+}
+
+.text p{
+    margin-bottom: 30px;
+}
+
+
+/* _____________________ */
+
+.images{
+    font-size: 0;
+    margin-bottom: 80px;
+}
+.big_image_block{
+    margin-bottom: 80px;
+}
+.image_01{
+    margin-right: 30px;
+}
+.small_image{
+border-radius: 5px;
+transition: all 0.5s ease 0s;
+}
+
+/* ____________________ */
+
+.second_image img{
+    width: 100%;
+    display: block;
+}
+.second_image{
+  margin-bottom: 100px;
+}
+
+/* ____________________ */
+
+
+.second_text{
+    margin-bottom: 100px;
+}
+
+.second_content{
+    margin-bottom: 100px;
+}
+
+
+.second_images{
+    margin-bottom: 100px;
+}
+
+
+
+/* __________________ */
+
+.button{
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 0;
+    background: #575445;
+    border-radius: 6px;
+    transition: all 0.5s ease 0s;
+    display: block;
+    max-width: 140px;
+    margin: 0 auto;
+}
+
+.button:hover {
+    background: #9f9f9f;
+   } 
+
+   .bottom_content{
+    padding-bottom: 30px;
+   }
+
+
+   .small_image:hover{
+
+    box-shadow:3px 7px 15px  #21252964 ;
+    
+   }
