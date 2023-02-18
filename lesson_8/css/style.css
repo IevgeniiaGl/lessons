@@ -1,0 +1,248 @@
+
+@import url("reset.css");
+
+[class*="__container"]{
+    max-width: 1270px;
+    margin: 0px auto;
+    padding: 0px 15px;
+}
+
+
+
+body{
+
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1;
+    color: #637381;
+}
+
+
+/* __________________________ */
+.vence_page{
+    background: url("../img/unsplash.jpg") 100% / cover no-repeat #212529;
+    margin-bottom: 50px;
+}
+
+.vence_content{
+    padding: 320px 0 100px 0;
+}
+
+.vence:not(:last-child){
+    margin-bottom: 15px;
+}
+
+
+.vence_date{
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 1.6;
+    color: #E5E5E5;
+}
+.vence_title {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 25px;
+    line-height:1.6;
+    color: #F8F9FA;
+    max-width: 605px;
+}
+.vence_text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 1.6;
+    color: #E5E5E5;
+    max-width: 350px;
+}
+
+/* __________________________ */
+
+.tailgrids {
+    
+    background: url(../img/speaker.jpg) 73% no-repeat,linear-gradient(115deg, rgba(244,247,255,0) 61%, rgba(48,86,211,0.08) 0%, rgba(244,247,255,0) 100%), linear-gradient(115deg, rgba(244,247,255,0) 67%, rgba(48,86,211,0.08) 67%, rgba(244,247,255,0) 100%) #F4F7FF;
+    margin-bottom: 50px;
+}
+
+.tailgrids_content {
+    padding: 145px 0;
+}
+.tailgrids_price {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.3;
+    color: #3056D3;
+    margin-bottom: 13px;
+}
+.tailgrids_title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.25;
+    color: #212B36;
+    margin-bottom: 15px;
+    max-width: 470px;
+
+}
+.tailgrids_text {
+    font-weight: 500;
+    line-height:1.5;
+    margin-bottom: 35px;
+    max-width: 570px;
+}
+.button{
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 30px;
+    background:#3056D3;
+    border-radius: 30px;
+    transition: all 0.5s ease 0s;
+    display: block;
+    max-width: 140px;
+}
+
+.button:hover{
+    background:#7f97e7;
+}
+
+
+
+/* ______________________________ */
+
+.list_block {
+}
+.list_block__container {
+}
+
+.list:not(:last-child) {
+    margin-bottom: 30px; 
+}
+.item:not(:last-child){
+    margin-bottom: 18px;
+}
+
+.item_one:before{
+    content:"";
+    width: 8px;
+    height: 8px;
+    background: #3056D3;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+    transition: all 0.3s ease 0s;
+}
+
+
+.item_one:hover:before{
+    transform: scale(1.5);
+}
+
+.item_one:hover{
+    color: #7f97e7;
+}
+
+/* _________________ */
+
+.item_two::before{
+    display: inline-block;
+    content:"";
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background: url( ../img/cross-circle.svg) 0 center no-repeat;
+    transition: all 0.3s ease 0s;
+    
+}
+
+.item_two:hover:before{
+    transform: scale(1.1);
+}
+
+.item_two:hover{
+    color: #ff5e81;
+}
+
+ /* _____________________ */
+
+
+.item_three:before{
+    display: inline-block;
+    content:"";
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background: url( ../img/checkmark-circle.svg) 0 center no-repeat;
+    transition: all 0.3s ease 0s;
+}
+
+.item_three:hover:before{
+    transform: scale(0.8);
+}
+
+.item_three:hover{
+    color: #4d81dc;
+}
+
+ /* _____________________ */
+
+.item_four::before{
+    display: inline-block;
+    content:"";
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background: url( ../img/arrow.svg) 0 center no-repeat; 
+    transition: all 0.3s ease 0s;
+}
+
+
+.item_four:hover:before{
+    margin-right: 20px;
+}
+
+.item_four:hover{
+    color: #0d3f95;
+}
+
+
+/* _________________ */
+
+.item_five::before{
+    display: inline-block;
+    content:"";
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background: url( ../img/checkmark-green.svg) 0 center no-repeat;
+    transition: all 0.3s ease 0s;
+}
+
+.item_five:hover:before{
+    rotate: 360deg;
+}
+
+.item_five:hover{
+    color: #62c22f;
+}
+
+/* ______________________ */
+.item_six::before{
+    display: inline-block;
+    content:"";
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    transition: all 0.3s ease 0s;
+    background: url( ../img/star.svg) 0 center no-repeat;
+}
+
+
+.item_six:hover:before{
+    transform: scale(1.2);
+}
+
+.item_six:hover{
+    color: #2650da;
+}
