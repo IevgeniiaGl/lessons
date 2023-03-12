@@ -1,0 +1,554 @@
+@import url("reset.css");
+
+
+body{
+
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #637381;
+	background: #f1f1f1;
+}
+
+[class*="__container"]{
+    max-width: 1920px;
+    margin: 0px auto;
+    padding: 0px 15px;
+}
+
+
+.wrapper{ 
+	overflow: clip;
+	min-height: 100%;
+}
+
+.main__block{
+	position: relative;
+}
+
+.main__city img{
+    width: 100%;
+	display: block;
+}
+
+/* CAR */
+.main__car{
+	position: absolute;
+	left: 0;
+	bottom:50px;
+	z-index: 5;
+	animation:  car 5s linear 1 normal forwards, car02 1s linear 9s 1 normal forwards;
+}
+
+@keyframes car {
+	0% {
+		transform: translate(0px, 0px);
+
+	}
+	15% {
+		opacity: 1;
+	}
+	100% {
+		transform: translate(700px, 0px);
+	}
+}
+@keyframes car02{
+	0%{
+		opacity: 1;
+	}
+
+	50%{
+	}
+
+	100%{
+		opacity: 0;
+
+
+	}
+}
+/* wheel */
+.car__wheel {
+	animation-name: wheel;
+	animation-duration:4s;
+	animation-timing-function: linear;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-play-state: running;
+	animation-delay: 1s;
+}
+@keyframes wheel {
+	0% {
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}
+
+
+
+
+/* NIGHT */
+
+.main__block::before{
+	content: "";
+	position: absolute;
+	background: #000;
+	opacity: 0;
+	z-index: 2;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	animation-name: night;
+	animation-duration: 4s;
+	animation-timing-function: linear;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-play-state: running;
+	animation-fill-mode: forwards;
+	animation-delay: 1s;
+}
+
+@keyframes night {
+	0% {
+		opacity: 0;
+	}
+	30% {
+		opacity: 0.5;
+	}
+	70% {
+		opacity: 0.7;
+	}
+	100% {
+		opacity: 0.8;
+	}
+}
+
+.car__wheel img{
+	display: block;
+	width: 100%;
+
+}
+.car__wheel--01{
+	position: absolute;
+	left: 60px;
+	bottom: -30px;
+	width: 70px;
+	height: 70px;
+
+}
+.car__wheel--02{
+	position: absolute;
+	left: 310px;
+	bottom: -30px;
+	width: 70px;
+	height: 70px;
+
+}
+
+
+
+
+/* MOON */
+
+.main__moon{
+	width: 100px;
+	height: 100px;
+	background-color: #f0f0b4;
+	border-radius: 50%;
+	position: absolute;
+	top: 6%;
+	right: 10%;
+	z-index: 2;
+	animation-name: moon;
+	animation-duration: 4s;
+	animation-timing-function: linear;
+	animation-direction: normal;
+	animation-play-state: running;
+	animation-fill-mode: forwards;
+	animation-delay: 4s;
+	opacity: 0;
+}
+@keyframes moon{
+	0% {
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 1;
+	}
+	
+}
+.main__star{
+	width: 15px;
+	height: 15px;
+	background: url(../img/star.svg ) 0 0 no-repeat;
+	border-radius: 50%;
+	
+}
+
+/* STAR01 */
+.star01{
+	position: absolute;
+	top: 5%;
+	right: 40%;
+	z-index: 2;
+	animation-name: star01;
+	animation: star01 4s linear 6s 1 normal forwards;
+	opacity: 0;
+}
+@keyframes star01{
+	0% {
+		opacity: 0;
+		scale: 0.5;
+	}
+	50%{
+		opacity: 0.5;
+	}
+	100%{
+		opacity: 1;
+		scale: 1;
+	}
+
+}
+/* STAR02 */
+.star02{
+	position: absolute;
+	top: 25%;
+	right: 30%;
+	z-index: 2;
+	animation: star02 5s linear 4s 1 normal forwards;
+	opacity: 0;
+}
+@keyframes star02{
+	0% {
+		opacity: 0;
+		scale: 0.5;
+	}
+	50%{
+		opacity: 0.5;
+	}
+	100%{
+		opacity: 1;
+		scale: 1;
+	}
+
+}
+/* STAR03 */
+.star03{
+	position: absolute;
+	top: 7%;
+	right: 48%;
+	z-index: 2;
+	animation: star03 4s linear 5s 1 normal forwards;
+	opacity: 0;
+}
+@keyframes star03{
+	0% {
+		opacity: 0;
+		scale: 0.5;
+	}
+	50%{
+		opacity: 0.5;
+	}
+	100%{
+		opacity: 1;
+		scale: 1;
+	}
+
+}
+/* STAR04 */
+.star04{
+	position: absolute;
+	top: 9%;
+	left: 20%;
+	z-index: 2;
+	animation: star04 4s linear 6s 1 normal forwards;
+	opacity: 0;
+}
+@keyframes star04{
+	0% {
+		opacity: 0;
+		scale: 0.5;
+	}
+	50%{
+		opacity: 0.5;
+	}
+	100%{
+		opacity: 1;
+		scale: 1;
+	}
+
+}
+/* STAR05 */
+.star05{
+	position: absolute;
+	top: 5%;
+	left: 40%;
+	z-index: 2;
+	animation: star05 4s linear 6s 1 normal forwards;
+	opacity: 0;
+}
+@keyframes star05{
+	0% {
+		opacity: 0;
+		scale: 0.5;
+	}
+	50%{
+		opacity: 0.5;
+	}
+	100%{
+		opacity: 1;
+		scale: 1;
+	}
+}
+/* STAR06 */
+.star06{
+	position: absolute;
+	top: 3%;
+	right: 7%;
+	z-index: 2;
+	animation: star06 4s linear 6s 1 normal forwards;
+	opacity: 0;
+}
+@keyframes star06{
+	0% {
+		opacity: 0;
+		scale: 0.5;
+	}
+	50%{
+		opacity: 0.5;
+	}
+	100%{
+		opacity: 1;
+		scale: 1;
+	}
+
+}
+/* STAR07 */
+.star07{
+	position: absolute;
+	top: 17%;
+	right: 40%;
+	z-index: 2;
+	animation: star07 3s linear 4s 1 normal forwards;
+	opacity: 0;
+}
+@keyframes star07{
+	0% {
+		opacity: 0;
+		scale: 0.5;
+	}
+	50%{
+		opacity: 0.5;
+	}
+	100%{
+		opacity: 1;
+		scale: 1;
+	}
+
+}
+/* STAR08 */
+.star08{
+	position: absolute;
+	top: 13%;
+	right: 20%;
+	z-index: 2;
+	animation: star08 5s linear 5s 1 normal forwards;
+	opacity: 0;
+}
+@keyframes star08{
+	0% {
+		opacity: 0;
+		scale: 0.5;
+	}
+	50%{
+		opacity: 0.5;
+	}
+	100%{
+		opacity: 1;
+		scale: 1;
+	}
+
+}
+
+
+.main__ufo{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 5;
+	animation: ufo 2s linear 5s 1 normal forwards, ufo2 3s linear 11s 1 normal forwards;
+	scale: 0.1;
+	opacity: 0;
+}
+
+.main__ufo::after{
+	position: absolute;
+	top: 135px;
+	left: -300px;
+	z-index: 8;
+	animation: ray 2s linear 8s 1 normal forwards;
+	content: '';
+	border-left:450px solid transparent;
+	border-right: 450px solid transparent;
+	border-bottom: 900px solid #ffffff8b;
+	opacity: 0;
+	z-index: 4;
+
+}
+
+@keyframes ufo{
+	0%{
+		opacity: 0;
+	}
+	3%{
+		opacity: 1;
+	}
+	5%{
+		transform: translate(30px 0px);
+		opacity: 1;
+	}
+	15% {
+		transform: translate(200px, 0px);
+		scale: 0.2;
+	}
+	35% {
+		transform: translate(400px, 0px);
+		scale: 0.4;
+	}
+	100% {
+		transform: translate(900px, 30px);
+		scale: 0.8;
+		opacity: 1;
+	}
+
+}
+@keyframes ufo2{
+	0%{
+		opacity: 1;
+	}
+	50% {
+		transform: translate(0px, 0px);
+		scale: 0.4;
+		opacity: 1;
+	}
+	70%{
+		opacity: 1;
+		scale: 0.4;
+	}
+	90% {
+		opacity: 0.8;
+		scale: 0.2;
+	}
+	100% {
+		opacity: 0;
+		scale: 0;
+	}
+
+}
+@keyframes ray{
+	0%{
+		opacity: 0;
+	}
+	3%{
+		opacity: 0.5;
+	}
+
+
+	10%{
+		opacity: 1;
+	}
+
+	98%{
+	opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+
+	
+}
+
+.ufo__light{
+
+	border-radius: 50%;
+	width: 15px;
+	height: 15px;
+	
+}
+
+.ufo__light--01{
+	position: absolute;
+	background: #14dcd9;
+	border: 2px solid #000;
+	top: 53px;
+	left: 20px;
+	animation: ufo-light 1s ease 1s infinite normal forwards;
+	opacity: 0;
+	scale: 0.5;
+
+}
+
+@keyframes ufo-light {
+	0%{
+		opacity: 0;
+		scale: 0.2;
+	}
+	100%{
+		opacity: 1;
+		scale: 0.5;
+
+	}
+	100%{
+		opacity: 1;
+		scale: 2;
+	}
+	
+}
+
+
+.ufo__light--02{
+	position: absolute;
+	background: #14dcd9;
+	border: 2px solid #000;
+	top: 100px;
+	left: 205px;
+	animation: ufo-light 1s ease 1s infinite normal forwards;
+	opacity: 0;
+	scale: 0.5;
+
+}
+
+
+
+.ufo__light--03{
+	position: absolute;
+	background: #14dcd9;
+	border: 2px solid #000;
+	top: 97px;
+	left: 260px;
+	animation: ufo-light 1s ease 1s infinite normal forwards;
+	opacity: 0;
+	scale: 0.5;
+
+}
+
+
+
+.ufo__light--04{
+	position: absolute;
+	background: #14dcd9;
+	border: 2px solid #000;
+	top: 90px;
+	left: 305px;
+	animation: ufo-light 1s ease 1s infinite normal forwards;
+	opacity: 0;
+	scale: 0.5;
+
+}
+
