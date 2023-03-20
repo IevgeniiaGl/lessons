@@ -25,11 +25,12 @@ body{
 
 
 .page{
-	padding-top: 100px;
+	
 }
 
 /* _________________________ */
 .header {
+	margin-bottom: 100px;
 }
 .header__container {
 	padding-top: 40px;
@@ -94,7 +95,7 @@ transition: background 0.5s ease 0s;
 /* _____SERVICES_________ */
 
 .page__services{
-	margin-bottom: 100px;
+	
 }
 .services {
 }
@@ -164,6 +165,7 @@ transition: background 0.5s ease 0s;
 
 /* ____________MINIMALIST____________ */
 .page__minimalist {
+	margin-bottom: 100px;
 }
 .minimalist {
 }
