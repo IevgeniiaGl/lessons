@@ -1,0 +1,187 @@
+@import url("reset.css");
+
+[class*="__container"]{
+    max-width: 1230px;
+    margin: 0px auto;
+    padding: 0px 15px;
+}
+
+body{
+
+    font-family: Inter, sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #637381;
+}
+.wrapper{ 
+	overflow: clip;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+/* ________________________ */
+.billing{
+	padding-top: 100px;
+}
+.billing__container{
+	display: flex;
+}
+.billing__body{
+flex: 0 1 700px;
+}
+.billing__header{
+	margin-bottom: 50px;
+
+}
+.billing__main-title{
+	font-weight: 700;
+	font-size: 44px;
+	line-height: 55px;
+	color: #212B36;
+}
+.billing__main-title:not(:last-child){
+	margin-bottom: 8px;
+}
+.billing__title{
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 30px;
+	color: #212B36;
+	margin-bottom: 20px;
+}
+.billing__form{
+}
+.form-billing__inputs{
+	display: flex;
+	flex-direction: column;
+	/* gap: 30px; */
+}
+.row:not(:last-child){
+	margin-bottom: 30px;
+}
+
+
+
+.form-billing__row{
+	display: flex;
+	column-gap: 28px;
+}
+
+.form-billing__item{
+	display: flex;
+	flex: 0 1 50%;
+}
+.form-billing__input{
+	border: 1px solid #E7E7E7;
+	border-radius: 7px;
+	padding: 15px 0 15px 25px;
+	flex: 0 1 100%;
+}
+.select-style{
+	font-family: Inter, sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color:inherit;
+	appearance: none;
+	background: url(../img/frame.svg ) 300px no-repeat;
+} 
+.select{
+	/* position: relative; */
+}
+.select-item{
+	/* background: url(../img/frame.svg ) 300px no-repeat; */
+
+}
+
+.select::after{
+	/* content: '';
+	background: url(../img/frame.svg ) center no-repeat;
+	right: 22px;
+	top: 23px;
+	width: 16px;
+	height: 8px;
+	position: absolute; */
+} 
+
+.additional{
+	flex: 0 1 700px;
+}
+.additional-style{
+	padding-bottom: 130px;
+}
+
+
+
+.billling-checkbox{
+	margin-bottom: 55px;
+}
+.billling-checkbox__item:not(:last-child){
+	margin-bottom: 25px;
+}
+
+.form-billing__checkbox {
+}
+
+.billling-checkbox__item {
+	position: relative;
+}
+.billling-checkbox-check {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 0;
+	opacity: 0;
+}
+.billling-checkbox__label {
+	cursor: pointer;
+	display: inline-flex;
+	align-items: flex-start;
+	gap: 14px;
+}
+
+.billling-checkbox__label:before{
+	content: '';
+	flex: 0 1 22px;
+	width: 22px;
+	height: 22px;
+	border-radius: 4px;
+	border: 0.7px solid #E7E7E7;
+}
+.billling-checkbox-check:checked + .billling-checkbox__label:before{
+	content: '';
+	background: url(../img/check.svg ) center no-repeat;
+	width: 22px;
+	height: 22px;
+	border-radius: 4px;
+	border: 0.7px solid #E7E7E7;
+}
+
+.form-billing__apply{
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 1.7;
+	color: #FFFFFF;
+	padding: 12px 22px;
+	transition: all 0.5s ease 0s;
+	background: #212B36;
+	border-radius: 5px;
+}
+
+.row-coupon{
+	display: flex;
+	gap: 20px;
+	align-items: center;
+}
+
+/* .form-billing__link{
+	background: #3056D3;
+	border-radius: 5px;
+	padding: 12px 153px;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #FFFFFF;
+} */
