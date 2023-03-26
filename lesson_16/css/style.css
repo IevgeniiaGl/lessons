@@ -73,6 +73,9 @@ body{
 	padding: 15px 25px;
     flex: 0 1 336px;
 }
+.billing__input:focus{
+	outline: 1px solid #3056D3;
+}
 .item-textarea{
 	flex: 0 1 100%;
 	resize: vertical;
@@ -203,6 +206,13 @@ body{
 	flex: 0 1 450px;
 	height: 44px;
 }
+
+.shipping__input:focus{
+	outline: 1px solid #000000;
+
+}
+
+
 .shipping__item:not(:last-child){
 	margin-bottom: 25px;
 }
