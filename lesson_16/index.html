@@ -4,110 +4,185 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="https://fonts.googleapis.com/css?family=Inter:regular,500,600,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Oswald:regular,500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:regular,500,700&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="css/style.css">
 		<title>Lesson 16</title>
 	</head>
     <body>
         <div class="wrapper">
-            <header class="header"></header>
+            <header class="header header-block">
+                <div class="header-block__container">
+                    <h1 class="header-block__title">Checkout</h1>
+                    <div class="header-block__text">There are 3 products in your cart</div>
+                </div>
+            </header>
             <main class="page">
-              <section class="page__billing billing">
-                <div class="billing__container">
-                    <div class="billing__body">
-                        <div class="billing__header">
-                            <h1 class="billing__main-title">Checkout</h1>
-                            <div class="billing__text">There are 3 products in your cart</div>
-                        </div>
-                        <h2 class="billing__title">Billing Details</h2>
-                        <form action="https://jsonplaceholder.typicode.com/posts" method="post" class="billing__form form-billing">
-                            <div class="form-billing__inputs">
-                                <div class="form-billing__row row">
-                                    <div class="form-billing__item">
-                                        <input class="form-billing__input" required autocomplete="off" type="text" name="username" placeholder="First name*" >
-                                    </div>
-                                    <div class="form-billing__item">
-                                        <input class="form-billing__input" required autocomplete="off" type="text" name="userlastname" placeholder="Last name*">
-                                    </div>
+                <section class="page__billing billing">
+                    <div class="billing__container">
+                        <form action="https://jsonplaceholder.typicode.com/posts" method="post" class="billing__form">
+                            <h2 class="billing__title title-details">Billing Details</h2>
+                            <div class="billing__items">
+                                <div class="billing__item">
+                                    <input class="billing__input" required autocomplete="off" type="text" name="username" placeholder="First name*" >
+                                    <input class="billing__input" required autocomplete="off" type="text" name="userlastname" placeholder="Last name*">
                                 </div>
-                                <div class="form-billing__row row">
-                                    <div class="form-billing__item">
-                                        <input class="form-billing__input" required autocomplete="off" type="text" name="address" placeholder="Address*" >
-                                    </div>
-                                    <div class="form-billing__item">
-                                        <input class="form-billing__input"  autocomplete="off" type="text" name="addressline2" placeholder="Address line 2">
-                                    </div>
+                                <div class="billing__item">
+                                    <input class="billing__input" required autocomplete="off" type="text" name="address" placeholder="Address*" >
+                                    <input class="billing__input"  autocomplete="off" type="text" name="addressline2" placeholder="Address line 2">
                                 </div>
-                                <div class="form-billing__row row">
-                                    <div class="form-billing__item select-item">
-                                        <select id="country" name="country" class="form-billing__input select-style">
-                                            <option value="Country">Country</option>
-                                            <option value="Ukraine">Ukraine</option>
-                                            <option value="England">England</option>
-                                            <option value="Germany">Germany</option>
-                                            <option value="USA">USA</option>
-                                            <option value="France">France</option>
-                                            <option value="Italy">Italy</option>
-                                        </select>
-                                    </div>
-                                    <div class="form-billing__item">
-                                        <input class="form-billing__input" required autocomplete="off" type="text" name="usercity" placeholder="City/Town*">
-                                    </div>
+                                <div class="billing__item select-item">
+                                    <select id="country" name="country" class="billing__input select-style">
+                                        <option value="Country*" selected disabled>Country</option>
+                                        <option value="Ukraine">Ukraine</option>
+                                        <option value="England">England</option>
+                                        <option value="Germany">Germany</option>
+                                        <option value="USA">USA</option>
+                                        <option value="France">France</option>
+                                        <option value="Italy">Italy</option>
+                                     </select>
+                                    <input class="billing__input" required autocomplete="off" type="text" name="usercity" placeholder="City/Town*">
                                 </div>
-                                <div class="form-billing__row row">
-                                    <div class="form-billing__item">
-                                        <input class="form-billing__input" required autocomplete="off" type="text" name="postcode" placeholder="Postcode / ZIP*" >
-                                    </div>
-                                    <div class="form-billing__item">
-                                        <input class="form-billing__input"  required autocomplete="off" type="tel" name="phone*" placeholder="Phone*">
-                                    </div>
+                                 <div class="billing__item">
+                                    <input class="billing__input" required autocomplete="off" type="text" name="postcode" placeholder="Postcode / ZIP*" >
+                                    <input class="billing__input"  required autocomplete="off" type="tel" name="phone*" placeholder="Phone*">
                                 </div>
-                                <div class="form-billing__row row">
-                                    <div class="form-billing__item">
-                                        <input class="form-billing__input" required autocomplete="off" type="text" name="postcode" placeholder="Postcode / ZIP*" >
-                                    </div>
-                                    <div class="form-billing__item">
-                                        <input class="form-billing__input"  required autocomplete="off" type="tel" name="phone*" placeholder="Phone*">
-                                    </div>
+                                <div class="billing__item">
+                                    <input class="billing__input" required autocomplete="off" type="text" name="postcode" placeholder="Postcode / ZIP*" >
+                                    <input class="billing__input"  required autocomplete="off" type="tel" name="phone*" placeholder="Phone*">
                                 </div>
-                                <div class="form-billing__row row">
-                                    <div class="form-billing__item additional">
-                                        <input class="form-billing__input additional-style"  autocomplete="off" type="text" name="additional" placeholder="Additional information">
-                                    </div>
+                                <div class="billing__item ">
+                                    <textarea class="billing__input item-textarea"  autocomplete="off" type="text" name="additional" textarea placeholder="Additional information"></textarea>
                                 </div>
-                                <div class="form-billing__checkbox billling-checkbox">
-                                    <div class="billling-checkbox__item">
-                                        <input id="create-account" class="billling-checkbox-check"  value="yes" name="create-account" type="checkbox">
-                                        <label class="billling-checkbox__label" for="create-account">Create Account</label>
-                                    </div>
-                                    <div class="billling-checkbox__item">
-                                        <input id="ship" class="billling-checkbox-check"  value="yes" name="ship" type="checkbox">
-                                        <label class="billling-checkbox__label" for="ship">Ship to a different address?</label>
-                                    </div>
-                                 
-                                  
-
-
+                            </div>
+                            <div class="billing__checkbox checkbox-billing">
+                                <div class="checkbox-billing__item">
+                                    <input id="create-account" checked class="checkbox-billing__check"  value="yes" name="create-account" type="checkbox">
+                                    <label class="checkbox-billing__label" for="create-account">Create Account</label>
                                 </div>
-                                <div class="form-billing__coupon">
-                                    <h2 class="form-billing__title billing__title">Apply Coupon to get discount</h2>
-                                    <div class="form-billing__row row row-coupon">
-                                        <div class="form-billing__item">
-                                            <input class="form-billing__input" required autocomplete="off" type="text" name="coupon" placeholder="Coupon code" >
-                                        </div>
-                                        <div class="form-billing__item">
-                                            <div class="form-billing__button">
-                                                <button type="submit" class="form-billing__apply">Apply Code</button>
-                                            </div>
-                                        </div>
-                                    </div>
+                                <div class="checkbox-billing__item">
+                                    <input id="ship" class="checkbox-billing__check"  value="yes" name="ship" type="checkbox">
+                                    <label class="checkbox-billing__label" for="ship">Ship to a different address?</label>
+                                </div>
+                            </div>
+                            <div class="billing__coupon">
+                                <h2 class="billing__title title-coupon">Apply Coupon to get discount</h2>
+                                <div class="billing__item coupon-item">
+                                        <input class="billing__input" required autocomplete="off" type="text" name="coupon" placeholder="Coupon code" >
+                                        <button type="submit" class="billing__apply">Apply Code</button>
                                 </div>
                             </div>
                         </form>
                     </div>
-                </div>
-              </section>
+                </section>
+                <section class="page__shipping shipping">
+                    <div class="shipping__container">
+                        <form action="https://jsonplaceholder.typicode.com/posts" method="post" class="shipping__address">
+                            <h2 class="shipping__title">Shipping Address</h2>
+                            <div class="shipping__items shipping__items">
+                                <div class="shipping__item">
+                                    <label for="email" class="shipping__label">Email Address<span>*</span></label>
+                                    <input type="text" class="shipping__input" id="email" required autocomplete="off" type="email" name="email" placeholder="roni_cost@example.com">
+                                </div>
+                                <div class="shipping__item">
+                                    <label for="password" class="shipping__label">Password</label>
+                                    <input  class="shipping__input" autocomplete="off" id="password" type="password" name="password" placeholder="******************">
+                                </div>
+                                <div class="shipping__item">
+                                    <label for="zip" class="shipping__label">Zip/Postal Code</label>
+                                    <input type="text" class="shipping__input" id="zip" autocomplete="off" type="text" name="zip">
+                                </div> 
+                            </div>
+                            <div class="shipping__text">You already have an account with us. Sign in or continue as guest.</div>
+                            <div class="shipping__login">
+                                <button type="submit" class="shipping__button">Login</button>
+                                <a href="#" class="shipping__link">Forgot Your Password?</a>
+                            </div>
+                               
+                        </form>  
+
+
+
+
+                        <form action="https://jsonplaceholder.typicode.com/posts" method="post" class="shipping__info">
+                            <div class="shipping__items-info">
+                                <div class="shipping__item">
+                                    <label for="first-name" class="shipping__label">First Name<span>*</span></label>
+                                    <input type="text" class="shipping__input" id="first-name" required autocomplete="off" type="text" name="first-name">
+                                </div>
+                                <div class="shipping__item">
+                                    <label for="last-name" class="shipping__label">Last Name<span>*</span></label>
+                                    <input type="text" class="shipping__input" id="last-name" required autocomplete="off" type="text" name="last-name">
+                                </div>
+                                <div class="shipping__item">
+                                    <label for="company" class="shipping__label">Company</label>
+                                    <input type="text" class="shipping__input" id="company"  autocomplete="off" type="text" name="company">
+                                </div>
+                                <div class="shipping__item">
+                                    <label for="street-adress" class="shipping__label">Street Adress<span>*</span></label>
+                                    <div class="shipping__street">
+                                        <input type="text" class="shipping__input street-input" id="street-adress" required autocomplete="off" type="text" name="street-adress">
+                                        <input type="text" class="shipping__input street-input" id="street-adress" autocomplete="off" type="text" name="street-adress">
+                                        <input type="text" class="shipping__input street-input" id="street-adress" autocomplete="off" type="text" name="street-adress">
+                                    </div>
+                                </div>
+                                <div class="shipping__item">
+                                    <label for="country" class="shipping__label">Country</label>
+                                    <input type="text" class="shipping__input" id="company"  autocomplete="off" type="text" name="country">
+                                </div>
+                                <div class="shipping__item">
+                                    <label for="state" class="shipping__label">State/Province<span>*</span></label>
+                                    <select type="text" class="shipping__input shipping-select" id="state"   autocomplete="off" type="text" name="state" placeholder="">
+                                                <option disabled selected value="Please select a region, state or province">Please select a region, state or province
+                                                </option>
+                                                <option value="Ukraine">Ukraine</option>
+                                                <option value="England">England</option>
+                                                <option value="Germany">Germany</option>
+                                                <option value="USA">USA</option>
+                                                <option value="France">France</option>
+                                                <option value="Italy">Italy</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <h2 class="shipping__title">Shipping Methods</h2>
+                                <div class="shipping__radio radio">
+                                    <div class="radio__item item-radio-01">
+                                        <input checked class="radio__input" id="price-01" required autocomplete="off" value="5$" name="price" type="radio">
+                                        <label class="radio__label" for="price-01">5$</label>
+                                        <div class="radio__info">
+                                            <div class="radio__label-text">Fixed</div>
+                                            <div class="radio__label-text">Flat Rat</div>   
+                                        </div>         
+                                    </div>
+                                    <div class="radio__item item-radio-02">
+                                        <input class="radio__input" id="price-02" required autocomplete="off" name="price" value="10$" type="radio">
+                                        <label class="radio__label" for="price-02">10$</label>
+                                        <div class="radio__info">
+                                            <div class="radio__label-text">Table Rate</div>
+                                            <div class="radio__label-text">Best Way</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            <div class="shipping__next">
+                                <button type="submit" class="shipping__button">next</button>
+                                <a href="#" class="shipping__back">back</a>
+                            </div>
+
+                            
+
+
+
+
+
+
+
+                           
+                        </form>
+
+                    </div>
+
+                </section>
+
             </main>
-            <footer class="footer"></footer>
         </div>
     </body>
-    
