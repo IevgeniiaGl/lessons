@@ -24,12 +24,12 @@
                             <h2 class="billing__title title-details">Billing Details</h2>
                             <div class="billing__items">
                                 <div class="billing__item">
-                                    <input class="billing__input" required autocomplete="off" type="text" name="username" placeholder="First name*" >
-                                    <input class="billing__input" required autocomplete="off" type="text" name="userlastname" placeholder="Last name*">
+                                    <input class="billing__input" required  type="text" name="username" placeholder="First name*" >
+                                    <input class="billing__input" required  type="text" name="userlastname" placeholder="Last name*">
                                 </div>
                                 <div class="billing__item">
-                                    <input class="billing__input" required autocomplete="off" type="text" name="address" placeholder="Address*" >
-                                    <input class="billing__input"  autocomplete="off" type="text" name="addressline2" placeholder="Address line 2">
+                                    <input class="billing__input" required  type="text" name="address" placeholder="Address*" >
+                                    <input class="billing__input"   type="text" name="addressline2" placeholder="Address line 2">
                                 </div>
                                 <div class="billing__item select-item">
                                     <select id="country" name="country" class="billing__input select-style">
@@ -41,18 +41,18 @@
                                         <option value="France">France</option>
                                         <option value="Italy">Italy</option>
                                      </select>
-                                    <input class="billing__input" required autocomplete="off" type="text" name="usercity" placeholder="City/Town*">
+                                    <input class="billing__input" required  type="text" name="usercity" placeholder="City/Town*">
                                 </div>
                                  <div class="billing__item">
-                                    <input class="billing__input" required autocomplete="off" type="text" name="postcode" placeholder="Postcode / ZIP*" >
-                                    <input class="billing__input"  required autocomplete="off" type="tel" name="phone*" placeholder="Phone*">
+                                    <input class="billing__input" required  type="text" name="postcode" placeholder="Postcode / ZIP*" >
+                                    <input class="billing__input"  required  type="tel" name="phone*" placeholder="Phone*">
                                 </div>
                                 <div class="billing__item">
-                                    <input class="billing__input" required autocomplete="off" type="text" name="postcode" placeholder="Postcode / ZIP*" >
-                                    <input class="billing__input"  required autocomplete="off" type="tel" name="phone*" placeholder="Phone*">
+                                    <input class="billing__input" required  type="text" name="postcode" placeholder="Postcode / ZIP*" >
+                                    <input class="billing__input"  required  type="tel" name="phone*" placeholder="Phone*">
                                 </div>
                                 <div class="billing__item ">
-                                    <textarea class="billing__input item-textarea"  autocomplete="off" name="additional" placeholder="Additional information"></textarea>
+                                    <textarea class="billing__input item-textarea"  name="additional" placeholder="Additional information"></textarea>
                                 </div>
                             </div>
                             <div class="billing__checkbox checkbox-billing">
@@ -68,7 +68,7 @@
                             <div class="billing__coupon">
                                 <h2 class="billing__title title-coupon">Apply Coupon to get discount</h2>
                                 <div class="billing__item coupon-item">
-                                        <input class="billing__input" required autocomplete="off" type="text" name="coupon" placeholder="Coupon code" >
+                                        <input class="billing__input" required  type="text" name="coupon" placeholder="Coupon code" >
                                         <button type="submit" class="billing__apply">Apply Code</button>
                                 </div>
                             </div>
@@ -82,15 +82,15 @@
                             <div class="shipping__items shipping__items">
                                 <div class="shipping__item">
                                     <label for="email" class="shipping__label">Email Address<span>*</span></label>
-                                    <input type="text" class="shipping__input" id="email" required autocomplete="off" type="email" name="email" placeholder="roni_cost@example.com">
+                                    <input type="text" class="shipping__input" id="email" required  type="email" name="email" placeholder="roni_cost@example.com">
                                 </div>
                                 <div class="shipping__item">
                                     <label for="password" class="shipping__label">Password</label>
-                                    <input  class="shipping__input" autocomplete="off" id="password" type="password" name="password" placeholder="******************">
+                                    <input  class="shipping__input"  id="password" type="password" name="password" placeholder="******************">
                                 </div>
                                 <div class="shipping__item">
                                     <label for="zip" class="shipping__label">Zip/Postal Code</label>
-                                    <input type="text" class="shipping__input" id="zip" autocomplete="off" type="text" name="zip">
+                                    <input type="text" class="shipping__input" id="zip"  type="text" name="zip">
                                 </div> 
                             </div>
                             <div class="shipping__text">You already have an account with us. Sign in or continue as guest.</div>
@@ -108,31 +108,31 @@
                             <div class="shipping__items-info">
                                 <div class="shipping__item">
                                     <label for="first-name" class="shipping__label">First Name<span>*</span></label>
-                                    <input type="text" class="shipping__input" id="first-name" required autocomplete="off" type="text" name="first-name">
+                                    <input type="text" class="shipping__input" id="first-name" required  type="text" name="first-name">
                                 </div>
                                 <div class="shipping__item">
                                     <label for="last-name" class="shipping__label">Last Name<span>*</span></label>
-                                    <input type="text" class="shipping__input" id="last-name" required autocomplete="off" type="text" name="last-name">
+                                    <input type="text" class="shipping__input" id="last-name" required  type="text" name="last-name">
                                 </div>
                                 <div class="shipping__item">
                                     <label for="company" class="shipping__label">Company</label>
-                                    <input type="text" class="shipping__input" id="company"  autocomplete="off" type="text" name="company">
+                                    <input type="text" class="shipping__input" id="company"  type="text" name="company">
                                 </div>
                                 <div class="shipping__item">
                                     <label for="street-adress" class="shipping__label">Street Adress<span>*</span></label>
                                     <div class="shipping__street">
-                                        <input type="text" class="shipping__input street-input" id="street-adress" required autocomplete="off" type="text" name="street-adress">
-                                        <input type="text" class="shipping__input street-input" id="street-adress" autocomplete="off" type="text" name="street-adress">
-                                        <input type="text" class="shipping__input street-input" id="street-adress" autocomplete="off" type="text" name="street-adress">
+                                        <input type="text" class="shipping__input street-input" id="street-adress" required  type="text" name="street-adress">
+                                        <input type="text" class="shipping__input street-input" id="street-adress"  type="text" name="street-adress">
+                                        <input type="text" class="shipping__input street-input" id="street-adress"  type="text" name="street-adress">
                                     </div>
                                 </div>
                                 <div class="shipping__item">
                                     <label for="country" class="shipping__label">Country</label>
-                                    <input type="text" class="shipping__input" id="company"  autocomplete="off" type="text" name="country">
+                                    <input type="text" class="shipping__input" id="company"   type="text" name="country">
                                 </div>
                                 <div class="shipping__item">
                                     <label for="state" class="shipping__label">State/Province<span>*</span></label>
-                                    <select type="text" class="shipping__input shipping-select" id="state"   autocomplete="off" type="text" name="state" placeholder="">
+                                    <select type="text" class="shipping__input shipping-select" id="state"  type="text" name="state">
                                                 <option disabled selected value="Please select a region, state or province">Please select a region, state or province
                                                 </option>
                                                 <option value="Ukraine">Ukraine</option>
