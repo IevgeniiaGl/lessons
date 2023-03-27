@@ -198,11 +198,11 @@ body{
 }
 .shipping__input{
 	font-weight: 400;
-	font-size: 5px 16px;
+	font-size: 16px;
 	line-height: 1.25;
 	color: #3F3F3F;
 	border: 1px solid #C4C4C4;
-	padding-left:16px;
+	padding: 5px 16px;
 	flex: 0 1 450px;
 	height: 44px;
 }
