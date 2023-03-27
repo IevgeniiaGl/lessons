@@ -205,7 +205,6 @@ body{
 	border: 1px solid #C4C4C4;
 	padding:10px 16px;
 	flex: 0 1 450px;
-	/* height: 44px; */
 }
 .street__input{
 
@@ -248,20 +247,19 @@ body{
 
 
 
-.shipping__link{
+.shipping__link,
+shipping__text{
 	font-family: Roboto;
 	font-weight: 400;
 	Font-size: 14px;
 	line-height: 1.4;
+	
+}
+.shipping__link{
 	color: #0F6DB1;
 	transition: background 0.5s ease 0s;
-}
-
+	
 .shipping__text{
-	font-family: 'Roboto';
-	font-weight: 400;
-	font-size: 14px;
-	line-height: 1.4;
 	color: #828282;
 }
 
@@ -294,7 +292,7 @@ body{
 	font-size: 16px;
 	color:inherit;
 	appearance: none;
-	background: url(../img/check02.svg ) 420px no-repeat;
+	background: url(../img/check02.svg ) 95% no-repeat;
 }
 
 .shipping__items-info{
