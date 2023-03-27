@@ -203,9 +203,13 @@ body{
 	line-height: 1.25;
 	color: #3F3F3F;
 	border: 1px solid #C4C4C4;
-	padding:5px 16px;
-	width: 450px;
-	height: 44px;
+	padding:10px 16px;
+	flex: 0 1 450px;
+	/* height: 44px; */
+}
+.street__input{
+
+	height: 44px
 }
 
 .shipping__item:not(:last-child){
@@ -273,10 +277,15 @@ body{
 
 
 .shipping__street{
-	flex: 0 1 74%;
+	flex: 0 450px;
 	display: flex;
 	flex-direction: column;
 	gap: 13px;
+}
+
+.street-input{
+	min-height: 44px;
+	flex: 0 1 100%;
 }
 
 .shipping-select{
