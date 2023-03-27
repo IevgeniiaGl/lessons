@@ -198,7 +198,7 @@ body{
 }
 .shipping__input{
 	font-weight: 400;
-	font-size: 16px;
+	font-size: 5px 16px;
 	line-height: 1.25;
 	color: #3F3F3F;
 	border: 1px solid #C4C4C4;
