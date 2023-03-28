@@ -72,6 +72,7 @@ body{
 	border-radius: 7px;
 	padding: 15px 25px;
     flex: 0 1 336px;
+	
 }
 
 .item-textarea{
@@ -201,6 +202,7 @@ body{
 	
 }
 .shipping__input{
+	font-family: Roboto;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.25;
@@ -208,6 +210,13 @@ body{
 	border: 1px solid #C4C4C4;
 	padding:10px 16px;
 	flex: 0 1 450px;
+}
+.radio__label-text{
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-size: 14px;
+	line-height:1.43;
+
 }
 .street__input{
 
@@ -291,10 +300,6 @@ body{
 }
 
 .shipping-select{
-	font-family: Inter, sans-serif;
-	font-weight: 500;
-	font-size: 16px;
-	color:inherit;
 	appearance: none;
 	background: url(../img/check02.svg ) 95% no-repeat;
 }
