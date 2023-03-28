@@ -165,6 +165,9 @@ body{
 
 
 /* __________SHIPPING_________________ */
+.shipping{
+	padding-bottom: 30px;
+}
 
 .shipping__address{
 	border-bottom: 1px solid #C4C4C4;
@@ -205,7 +208,6 @@ body{
 	border: 1px solid #C4C4C4;
 	padding:10px 16px;
 	flex: 0 1 450px;
-	/* height: 44px; */
 }
 .street__input{
 
@@ -387,6 +389,7 @@ body{
 .shipping__next{
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 .shipping__back:hover{
 	color: #000000;
@@ -450,16 +453,17 @@ body{
 	.shipping-select{
 		font-size: 14px;
 	}
- } 
- @media (max-width: 360.00px){ 
+	.billing__apply{
+		width: 100%;
+	}
+	.coupon-item{
+		gap: 10px;
+	}
+	.shipping__back{
+		font-size: 16px;
+	}
 	.shipping-select{
 		font-size: 12px;
 	}
-	/* .shipping__login{
-		flex-wrap: wrap;
-	}
-	.shipping__button{
-		width: 100%;
-	} */
  } 
 
