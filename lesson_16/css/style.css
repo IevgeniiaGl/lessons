@@ -72,6 +72,7 @@ body{
 	border-radius: 7px;
 	padding: 15px 25px;
     flex: 0 1 336px;
+	
 }
 
 .item-textarea{
@@ -165,6 +166,9 @@ body{
 
 
 /* __________SHIPPING_________________ */
+.shipping{
+	padding-bottom: 30px;
+}
 
 .shipping__address{
 	border-bottom: 1px solid #C4C4C4;
@@ -198,14 +202,24 @@ body{
 	
 }
 .shipping__input{
+	font-family: Roboto;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.25;
 	color: #3F3F3F;
 	border: 1px solid #C4C4C4;
-	padding:5px 16px;
-	width: 450px;
-	height: 44px;
+	padding:10px 16px;
+	flex: 0 1 450px;
+}
+.radio__label-text{
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-size: 14px;
+	line-height:1.43;
+
+}
+.street__input{
+	height: 44px
 }
 
 .shipping__item:not(:last-child){
@@ -272,21 +286,21 @@ body{
 }
 
 
-
 .shipping__street{
-	flex: 0 1 74%;
+	flex: 0 1 450px;
 	display: flex;
 	flex-direction: column;
 	gap: 13px;
 }
 
+.street-input{
+	min-height: 44px;
+	flex: 0 1 100%;
+}
+
 .shipping-select{
-	font-family: Inter, sans-serif;
-	font-weight: 500;
-	font-size: 16px;
-	color:inherit;
 	appearance: none;
-	background: url(../img/check02.svg ) 420px no-repeat;
+	background: url(../img/check02.svg ) 95% no-repeat;
 }
 
 .shipping__items-info{
@@ -379,7 +393,82 @@ body{
 .shipping__next{
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 .shipping__back:hover{
 	color: #000000;
 }
+
+
+@media (max-width: 991.98px){
+	.header{
+		padding-top: 30px;
+		margin-bottom: 30px;
+	}
+	.header-block__title{
+		font-size: 36px;
+	}
+	.page__billing{
+		margin-bottom: 70px;
+	}
+	.billing__input,
+	.shipping__input,
+	.shipping__street{
+		flex: 0 1 100%;
+	}
+	.billing__item{
+		gap: 20px;
+	}
+	.shipping__item{
+		gap: 10px;
+	}
+	.billing__item:not(:last-child),
+	.shipping__title:not(:last-child),
+	.title-details:not(:last-child),
+	.shipping__radio
+	{
+		margin-bottom: 20px;
+	}
+	.billing__checkbox,
+	.shipping__items:not(:last-child){
+		margin-bottom: 30px;
+	}
+	.title-coupon:not(:last-child),
+	.shipping__text:not(:last-child),
+	.checkbox-billing__item:not(:last-child){
+	margin-bottom: 15px;
+	}
+	.billing__title{
+		font-size: 20px;
+	}
+	.shipping__items-info{
+		margin-bottom: 40px;
+	}
+ } 
+ @media (max-width:  767.98px){ 
+	.radio__label-text,
+	.shipping-select{
+		font-size: 14px;
+	}
+	.billing__apply{
+		width: 100%;
+	}
+	.coupon-item{
+		gap: 10px;
+	}
+	.shipping__back{
+		font-size: 16px;
+	}
+	.radio__item{
+		gap: 30px;
+	}	
+ } 
+ @media (max-width: 560.00px){
+	.shipping-select{
+		font-size: 12px;
+	}
+	.item-radio-02{
+		width:100%;
+	}
+  } 
+
