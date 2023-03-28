@@ -321,7 +321,6 @@ transition: background 0.5s ease 0s;
 @media (max-width: 991.98px){
 
 	.header__container{
-		
 		align-items: center;
 		justify-content: center;
 		row-gap: 20px;
@@ -414,7 +413,7 @@ transition: background 0.5s ease 0s;
 
 @media (max-width: 560.00px){
 	.menu__list{
-		gap: 30px;
+		gap: 15px;
 	}
  } 
 
