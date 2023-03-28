@@ -413,7 +413,7 @@ transition: background 0.5s ease 0s;
 
 @media (max-width: 560.00px){
 	.menu__list{
-		gap: 15px;
+		gap: 18px;
 	}
  } 
 
@@ -422,7 +422,6 @@ transition: background 0.5s ease 0s;
 		flex-wrap: wrap;
 		align-items: center;
 		justify-content: center;
-		row-gap: 20px;
 	}
 	
  } 
