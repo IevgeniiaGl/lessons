@@ -322,7 +322,7 @@ transition: background 0.5s ease 0s;
 	.header__container{
 		align-items: center;
 		justify-content: center;
-		row-gap: 20px;
+		row-gap: 15px;
 		padding-top: 20px;
 		padding-bottom: 20px;
 	}
@@ -383,7 +383,7 @@ transition: background 0.5s ease 0s;
 		flex-wrap: wrap;
 		align-items: center;
 		justify-content: center;
-		row-gap: 30px;
+		row-gap: 20px;
 	}
 	.main-block__title{
 		font-size: 30px;
@@ -415,7 +415,7 @@ transition: background 0.5s ease 0s;
 
 @media (max-width: 560.00px){
 	.menu__list{
-		gap: 18px;
+		gap: 15px;
 	}
 
  } 
