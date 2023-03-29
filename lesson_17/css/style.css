@@ -407,6 +407,12 @@ transition: background 0.5s ease 0s;
 	.page__services{
 		margin-bottom: 30px;
 	}
+	.minimalist__gallery{
+		row-gap: 15px;
+	}
+	.page__minimalist{
+		margin-bottom: 30px;
+	}
 	
 } 
 
