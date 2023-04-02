@@ -940,7 +940,8 @@ body {
 
 @media (max-width: 767.98px){
 	.design__items{
-		row-gap: 20px;
+		row-gap: 30px;
+		
 	}
 	.design__header:not(:last-child){
 		margin-bottom: 30px;
@@ -949,11 +950,6 @@ body {
  } 
 
 
-@media (max-width: 767.98px){
-	.design__items{
-		row-gap: 20px;
-	}
- }
 
  @media (max-width: 660px){
 	.design__column {
