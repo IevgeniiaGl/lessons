@@ -327,6 +327,9 @@ body {
 	}
 }
 
+
+ 
+
 /* ------------MAIN-BLOCK---------------- */
 
 .title{
@@ -636,15 +639,10 @@ body {
 	.title{
 		font-size: 18px;
 	}
-	/* .header__logo{
-		justify-content: center;
-	} */
-	.header__container{
-		gap: 5px;
-	}
+	
 	.header__container{
 		flex-wrap: wrap;
-		row-gap: 3px;
+		row-gap: 6px;
 		justify-content: center;
 		align-items: center;
 	}
@@ -684,6 +682,17 @@ body {
 	}
  } 
 
+ @media (max-width: 306px){
+	.header__container{
+		min-height: 70px;
+	}
+	.page__main-block{
+		padding-top: 80px;
+	}
+	.menu__body:before{
+		height:80px;
+	}
+ } 
 
 /* ______FOOTER______ */
 .footer {
