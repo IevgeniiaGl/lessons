@@ -783,11 +783,18 @@ body {
 
 
 /* _________next-page_____ */
+.header__sosial{
+	
+}
 
 .header-social{
 	display: flex;
 	gap: 25px;
 	flex: 1 1 auto;
+	position: relative;
+	z-index: 9;
+	
+	
 }
 
 .header-social__link{
@@ -798,6 +805,7 @@ body {
 	display: flex;
 	align-items: center;
 	gap: 20px;
+	
 }
 .header-social:not(:last-child)::after {
 	content: "";
@@ -809,10 +817,11 @@ body {
 		background: url("../img/search02.svg") center no-repeat;
 		width: 22px;
 		height: 22px;
-		position: relative;
-		z-index: 9;
 		transform: translate(-5px, 0px);
+		position: relative;
+		z-index: 10;
 	}
+
 
 @media (max-width: 360.00px){
 	.header__last-block{
