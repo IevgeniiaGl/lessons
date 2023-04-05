@@ -125,7 +125,7 @@ margin-bottom: 15px;
 		padding-bottom: 40.350877%;
 	}
 	.category__image_big img{
-		object-position: bottom;
+		object-position: 50% 80%;
 	}
 	.category__items {
 		grid-template-columns: repeat(1, 1fr);
