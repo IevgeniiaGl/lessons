@@ -48,7 +48,12 @@ body{
 	}
  } 
 
-
+ @media (max-width: 660px){
+	.header{
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+ } 
 
 
 .title-link{
@@ -765,6 +770,9 @@ margin-bottom: 15px;
 	.featured__item:nth-child(2) {
 			grid-column: span 12;
 			} 	
+			.featured__image_big {
+				padding-bottom: 74.57265%; /* 349/468 */
+			}
  } 
 
 
