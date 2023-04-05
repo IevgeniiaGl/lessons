@@ -804,6 +804,7 @@ margin-bottom: 15px;
 	color: #3056D3;
 	display: inline-block;
 	padding: 8px 30px;
+	transition: background 0.5s ease 0s;
 }
 
 .shop__items {
@@ -1122,6 +1123,11 @@ margin-bottom: 15px;
 
 
  @media (any-hover: hover){
+	.shop__link:hover{
+		background: #3056D3;
+		color: #ffffff;
+
+	}
 	.collections__image img:hover{
 		transform: scale(1.1);
 	}
