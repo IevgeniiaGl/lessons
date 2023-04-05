@@ -104,7 +104,7 @@ margin-bottom: 15px;
 .category__info{
 	position: absolute;
 	z-index: 2;
-	max-width: 362px;
+	max-width: 400px;
 	top: 40px;
 	left: 40px;
 	padding-right: 5px;
@@ -126,12 +126,12 @@ margin-bottom: 15px;
 	grid-row: span 2;
 }
 @media (max-width: 991.98px){ 
-	.category__image_big{
+	/* .category__image_big{
 		padding-bottom: 40.350877%;
 	}
 	.category__image_big img{
 		object-position: 50% 80%;
-	}
+	} */
 	.category__items {
 		grid-template-columns: repeat(1, 1fr);
 		gap: 15px;
