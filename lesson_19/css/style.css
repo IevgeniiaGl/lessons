@@ -735,8 +735,6 @@ margin-bottom: 15px;
 	.featured__items {
 		gap: 15px;
 	}
-} 
-@media (max-width: 767.98px){
 	.featured__item:nth-child(1) {
 		grid-column: span 12;
 		} 
@@ -750,9 +748,10 @@ margin-bottom: 15px;
 	.featured__item:nth-child(2) {
 			grid-column: span 6;
 			} 	
- } 
+} 
 
- @media (max-width: 660px){
+
+ @media (max-width: 767.98px){
 	.featured__item:nth-child(1) {
 		grid-column: span 12;
 		} 
