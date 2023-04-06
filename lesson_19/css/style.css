@@ -198,6 +198,12 @@ margin-bottom: 15px;
 		left: 15px;
 		max-width: 210px;
 	}
+	.category__image {
+		padding-bottom: 48%;
+	}
+	.category__image_big{
+		padding-bottom:85.964912%;
+	}
 
  } 
 
