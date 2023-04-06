@@ -1176,10 +1176,7 @@ margin-bottom: 15px;
 	.category__image:hover {
 		opacity: 0.8;
 	}
-	.featured__image:hover{
-		opacity: 0.8;
-		cursor: pointer;
-	}
+	
 	.title-link:hover{
 		color: #3056D3;
 	}
