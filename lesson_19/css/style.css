@@ -820,8 +820,6 @@ margin-bottom: 15px;
 
 
 
-
-
 .featured__image::after{
 	content: '';
     position: absolute;
@@ -893,6 +891,7 @@ margin-bottom: 15px;
 	position: relative;
 	padding-bottom: 66.473988%; /* 230/346 */
 	overflow: hidden;
+	display: block;
 	
 
 }
@@ -1001,6 +1000,7 @@ margin-bottom: 15px;
 }
 .top__image {
 	position: relative;
+	display: block;
 	padding-bottom: 92.592593%; /* 250/270 */
 	overflow: hidden;
 	margin-bottom: 20px;
