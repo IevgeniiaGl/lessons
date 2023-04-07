@@ -780,6 +780,9 @@ margin-bottom: 15px;
 	flex: 1 1 auto;
 }
 @media (max-width: 991.98px){ 
+	.featured__body {
+		padding:15px;
+	}
 	.page__featured {
 		margin-bottom: 70px;
 	}
