@@ -89,6 +89,7 @@ margin-bottom: 15px;
 }
 .category__item {
 	position: relative;
+	overflow:hidden;
 }
 .category__label {
 	font-weight: 600;
