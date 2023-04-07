@@ -164,9 +164,7 @@ margin-bottom: 15px;
 	.category__item:nth-child(3) .category__image img{
 		object-position: right;
 	}
-	.category__info{
-		padding: 20px 10px 10px 20px;
-	}
+	/*  */
 
  } 
 
@@ -194,6 +192,9 @@ margin-bottom: 15px;
 	}
 	.category__info{
 		max-width: 230px;
+	}
+	.category__info{
+		padding: 20px 10px 10px 20px;
 	}
  } 
 
