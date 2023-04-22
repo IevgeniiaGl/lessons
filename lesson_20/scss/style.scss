@@ -815,7 +815,7 @@ $font:"Roboto";
     padding: 20px 20px 10px 20px;
     &__body {
         padding: 24px 24px 10px 24px;
-        font-display: flex;
+        display: flex;
         flex-direction: column;
     }
     &__category {
