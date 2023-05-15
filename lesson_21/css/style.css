@@ -422,14 +422,6 @@ body {
     pointer-events: auto;
   }
 }
-.page {
-  padding-bottom: 6.25rem;
-}
-@media (max-width: 61.99875rem) {
-  .page {
-    padding-bottom: 3.125rem;
-  }
-}
 .page__main {
   margin-bottom: 6.25rem;
 }
@@ -451,6 +443,14 @@ body {
 }
 @media (max-width: 61.99875rem) {
   .page__featured {
+    margin-bottom: 3.125rem;
+  }
+}
+.page__news {
+  padding-bottom: 6.25rem;
+}
+@media (max-width: 61.99875rem) {
+  .page__news {
     margin-bottom: 3.125rem;
   }
 }
