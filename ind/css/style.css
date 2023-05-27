@@ -191,75 +191,15 @@ h6 {
 */
 
 .page {
-  padding-top: 3.125rem;
+  padding-top: 2rem;
 }
 
 .text {
   line-height: 1.67;
 }
 
-.content {
-  padding-bottom: 2.5rem;
-}
 
-.content__title {
-  font-size: 2.625rem;
-  font-weight: 500;
-  text-align: center;
-  margin-bottom: 3.125rem;
-}
 
-.content__text {
-  margin-bottom: 2.8125rem;
-}
-
-.content__text p:not(:last-child) {
-  margin-bottom: 1.25rem;
-}
-
-.content__image {
-  position: relative;
-  padding-bottom: 50%;
-}
-
-.content__image img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-.order {
-  padding-bottom: 2.5rem;
-  padding-top: 2.5rem;
-}
-
-.order__title {
-  font-size: 2rem;
-  font-weight: 500;
-  text-align: center;
-  margin-bottom: 3.125rem;
-}
-
-.order__item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.order__item:not(:last-child) {
-  margin-bottom: 1.875rem;
-}
-
-.order__icon {
-  margin-right: 1.875rem;
-  -webkit-transition: all 0.5s ease 0s;
-  -o-transition: all 0.5s ease 0s;
-  transition: all 0.5s ease 0s;
-}
 
 .advantages {
   padding-bottom: 2.5rem;
@@ -349,6 +289,9 @@ h6 {
   margin-bottom: 1.25rem;
 }
 
+
+
+
 @media (max-width: 61.99875em) {
   .advantages__items {
     -ms-grid-columns: (1fr)[2];
@@ -363,3 +306,22 @@ h6 {
   }
 }
 
+@media (any-hover: hover) {
+  .order__icon:hover {
+    -webkit-transform: translate(10%, 0);
+        -ms-transform: translate(10%, 0);
+            transform: translate(10%, 0);
+  }
+
+  .actions__item_01:hover {
+    background: #a3a3a3;
+  }
+
+  .actions__item_02:hover {
+    background: #dbdbdb;
+  }
+
+  .actions__item_03:hover {
+    background: #e1e9ad;
+  }
+}
