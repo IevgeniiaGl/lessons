@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>kontract</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="mebel-na-zakaz" transform="translate(-150.000000, -1944.000000)">
+            <g id="как-заказать" transform="translate(150.000000, 1529.000000)">
+                <g id="kontract" transform="translate(0.000000, 415.000000)">
+                    <rect id="Rectangle" fill="#FFFFFF" opacity="0.00806826637" x="0" y="0" width="60" height="60"></rect>
+                    <g id="contract-svgrepo-com-(1)" transform="translate(6.000000, 6.000000)" fill="#000000" fill-rule="nonzero">
+                        <path d="M6.89473684,1.83783784 L39.1052632,1.83783784 L39.1052632,17 L41,17 L41,0.918918919 C41,0.411491892 40.5757684,0 40.0526316,0 L5.94736842,0 C5.42423158,0 5,0.411491892 5,0.918918919 L5,17 L6.89473684,17 L6.89473684,1.83783784 Z" id="Path"></path>
+                        <path d="M39.1052632,36.8574041 L32.4736842,36.8574041 C31.9505474,36.8574041 31.5263158,37.2668095 31.5263158,37.7716637 L31.5263158,44.1714808 L6.89473684,44.1714808 L6.89473684,30 L5,30 L5,45.0857404 C5,45.5905946 5.42423158,46 5.94736842,46 L32.4736842,46 C32.7201895,46 32.9624316,45.9071112 33.1435684,45.7322134 L40.7225158,38.4181366 C40.9036526,38.2432388 40.9976316,38.0094626 40.9977263,37.7716637 L41,37.7716637 L41,30.0002743 L39.1052632,30.0002743 L39.1052632,36.8574041 Z M33.4210526,42.8784435 L33.4210526,38.6859233 L37.7654,38.6859233 L33.4210526,42.8784435 Z" id="Shape"></path>
+                        <path d="M45.0612245,20 L6.10204082,20 L6.10204082,20.0019 C5.97004898,20.0019 5.83749388,20.0297 5.71357551,20.0896 L0.550310204,22.5896 C0.215167347,22.7519 0,23.1078 0,23.5 C0,23.8922 0.215167347,24.2481 0.550310204,24.4104 L5.71357551,26.9104 C5.8374,26.9705 5.96986122,27 6.10194694,27 L6.10204082,27 L45.0612245,27 C45.5796163,27 46,26.5522 46,26 L46,21 C46,20.4478 45.5796163,20 45.0612245,20 Z M5.16326531,24.447 L3.20742041,23.5 L5.16326531,22.553 L5.16326531,24.447 Z M38.9591837,25 L7.04081633,25 L7.04081633,22 L38.9591837,22 L38.9591837,25 Z M44.122449,25 L40.8367347,25 L40.8367347,22 L44.122449,22 L44.122449,25 Z" id="Shape"></path>
+                        <rect id="Rectangle" x="9" y="4" width="8" height="2"></rect>
+                        <rect id="Rectangle" x="10" y="8" width="10" height="2"></rect>
+                        <rect id="Rectangle" x="9" y="36" width="15" height="2"></rect>
+                        <rect id="Rectangle" x="32" y="4" width="2" height="2"></rect>
+                        <rect id="Rectangle" x="35" y="4" width="2" height="2"></rect>
+                        <rect id="Rectangle" x="10" y="39" width="2" height="2"></rect>
+                        <rect id="Rectangle" x="13" y="39" width="2" height="2"></rect>
+                    </g>
+                    <g id="Group-12" transform="translate(30.000000, 31.000000)">
+                        <circle id="Oval" fill="#A8C30C" cx="14" cy="14" r="14"></circle>
+                        <text id="4" font-family="Montserrat-SemiBold, Montserrat" font-size="18" font-weight="500" fill="#FFFFFF">
+                            <tspan x="7" y="20">4</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
